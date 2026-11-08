@@ -1,3 +1,2 @@
-# Training / CI dependencies (the Docker runtime image only needs requirements.txt)
 -r requirements.txt
 mlflow==2.16.2

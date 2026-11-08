@@ -1,0 +1,10 @@
+services:
+  estateiq:
+    build:
+      context: .
+      args:
+        GIT_SHA: local
+    image: estateiq:latest
+    ports:
+      - "8501:8501"
+    restart: unless-stopped

@@ -7,3 +7,6 @@ scikit-learn==1.4.2
 joblib==1.3.2
 plotly==5.24.1
 pytest==8.3.4
+# Training / CI dependencies (the Docker runtime image only needs requirements.txt)
+-r requirements.txt
+mlflow==2.16.2
